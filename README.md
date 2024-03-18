@@ -22,4 +22,8 @@ a testcase follows the following format
     <ideal answer>
     is the ideal answer that the user expects out of the user input. 
 
+# how it works
 
+for each testcase the model outputs an answer, the answer is compared via sematic similarity to the ideal answer provided by the user.
+
+the user can declare a minimal similarity between the model's answer and the ideal answer for the prompt to pass evaluation. 
